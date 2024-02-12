@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/postsFeedFragment"
+        android:icon="@drawable/posts_feed_24"
+        android:title="@string/fragment_posts_feed_title"/>
+    <item
+        android:id="@+id/myAccountFragment"
+        android:icon="@drawable/account_circle_24"
+        android:title="@string/fragment_my_account_title"/>
+    <item
+        android:id="@+id/eventsFeedFragment"
+        android:icon="@drawable/event_list_24"
+        android:title="@string/fragment_events_feed_title"/>
+</menu>
