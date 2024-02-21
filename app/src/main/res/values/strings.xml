@@ -5,4 +5,5 @@
     <string name="fragment_posts_feed_title">Posts</string>
     <string name="fragment_my_account_title">My Account</string>
     <string name="fragment_events_feed_title">Events</string>
+    <string name="retry_loading">Retry</string>
 </resources>

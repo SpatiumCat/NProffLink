@@ -3,8 +3,8 @@ package ru.netology.nprofflink.dto
 import ru.netology.nprofflink.enums.EventType
 
 data class Event(
-    val id: Int,
-    val authorId: Int,
+    val id: Long,
+    val authorId: Long,
     val author: String,
     val authorAvatar: Int,
     val authorJob: String,
@@ -13,10 +13,10 @@ data class Event(
     val published: String,
     val coords: Coordinates,
     val type: EventType,
-    val likeOwnerIds: List<Int>,
+    val likeOwnerIds: List<Long>,
     val likedByMe: Boolean,
-    val speakerIds: List<Int>,
-    val participantsIds: List<Int>,
+    val speakerIds: List<Long>,
+    val participantsIds: List<Long>,
     val participatedByMe: Boolean,
     val attachment: Attachment,
     val link: String,

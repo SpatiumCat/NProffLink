@@ -1,7 +1,7 @@
 package ru.netology.nprofflink.dto
 
 data class Job(
-    val id: Int,
+    val id: Long,
     val name: String,
     val position: String,
     val start: String,
